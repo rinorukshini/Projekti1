@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#74C877"
+    android:orientation="vertical"
+    tools:context=".showActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:text="Contacts App" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageMood"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_insert_emoticon_black_24dp" />
+
+        <ImageView
+            android:id="@+id/imagePhone"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_local_phone_black_24dp" />
+
+        <ImageView
+            android:id="@+id/imageWeb"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_web_black_24dp" />
+
+        <ImageView
+            android:id="@+id/imageMap"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_map_black_24dp" />
+
+        <TextView
+            android:id="@+id/tvNameSurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="TextView"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/updButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Update"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
